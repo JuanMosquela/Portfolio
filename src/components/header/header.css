@@ -1,0 +1,38 @@
+.header-container{
+    position: fixed;    
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 35rem;    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;    
+    gap: 5rem;
+    padding: 3rem;
+    text-align: center;    
+}
+
+.header-container ul li{       
+    background-color: var(--background-color-light);   
+}
+
+.header-container ul li:hover{
+    background-color: var(--hover-color);
+
+}
+
+.header-container ul li a{
+    display: block;
+    margin: 1rem 0;
+    padding: 1.2rem;
+    background-color:var(--background-color-light);    
+    color: #FFF;
+    font-size: var(--fs-a);
+    font-weight: 600;     
+    
+}
+
+.header-container ul li:hover a{
+    color: #333;
+    background-color: var(--hover-color);    
+
+}
