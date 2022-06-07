@@ -1,0 +1,24 @@
+.container-proyects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+
+.container{
+    padding: 0 8%;
+    
+}
+
+.container-proyects h2{
+    font-size: 2.8rem;
+   
+    margin-bottom: 4rem;
+}
+
+.content{
+    background-color: var(--background-color-light);
+    padding-top: 2rem;
+}

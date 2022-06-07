@@ -9,6 +9,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -20,6 +21,7 @@ body{
 section{
     padding-left: 35rem;
     min-height: 100vh;
+    
 }
 
 :root{
