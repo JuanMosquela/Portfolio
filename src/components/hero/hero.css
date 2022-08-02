@@ -1,0 +1,10 @@
+.hero-container{
+    min-height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container .content{
+    color: #333;
+}

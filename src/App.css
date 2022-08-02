@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Secular+One&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -12,15 +14,14 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: var(--body-color);
-    color: #FFF;   
-    
-}
+
 
 section{
-    padding-left: 35rem;
+    
     min-height: 100vh;
+    font-family: 'Adamina', serif;
+  font-family: 'Secular One', sans-serif;
+  padding: 0 10%;
     
 }
 
