@@ -4,6 +4,7 @@ import './proyects.css';
 import proyectsData from '../../data/proyectsData.js'
 import ProyectCard from '../proyectCard/ProyectCard';
 import Slider from "react-slick";
+import {Link} from 'react-router-dom'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -31,7 +32,7 @@ const ProyectsCarrusell = () => {
           }
         },
         {
-          breakpoint: 800,
+          breakpoint: 900,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -39,7 +40,7 @@ const ProyectsCarrusell = () => {
           }
         },
         {
-          breakpoint: 500,
+          breakpoint: 600,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -47,6 +48,8 @@ const ProyectsCarrusell = () => {
         }
       ]
     };
+
+    
 
     return (
       <section id="proyects" className="container-proyects">
@@ -56,15 +59,17 @@ const ProyectsCarrusell = () => {
           span='Conoce mi trabajo' 
         /> 
         <Slider className="container" {...settings}> 
-          {proyectsData.map(proyect => (        
+          {proyectsData.map(proyect => (  
+                  
             
-            <ProyectCard
-
+            <Link to={`/proyectos/${proyect.title}`}>
+              <ProyectCard
                 key={proyect.id}
                 title={proyect.title}
                 description={proyect.description}
                 img={proyect.img_URL}              
-            />
+                />
+            </Link>
             
           ))}
                           

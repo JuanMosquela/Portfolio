@@ -1,7 +1,7 @@
 import './proyectCard.css';
 
 
-const ProyectCard = ({ title, description, img }) => {
+const ProyectCard = ({ img }) => {
   return (
     <div className="proyect-card">
         <figure>

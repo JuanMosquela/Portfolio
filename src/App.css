@@ -20,8 +20,9 @@ section{
     
     min-height: 100vh;
     font-family: 'Adamina', serif;
-  font-family: 'Secular One', sans-serif;
-  padding: 0 10%;
+    font-family: 'Secular One', sans-serif;
+    padding: 0 10%;
+    overflow-x: hidden;
     
 }
 

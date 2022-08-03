@@ -1,6 +1,10 @@
-import memo from '.././img/memo.png';
-import physical from '.././img/physical.png';
-import cart from '.././img/cart.png'
+import memo from '../img/memo.png';
+import physical from '../img/physical.png';
+import cart from '../img/cart.png';
+import commerce from '../img/e-commerce.png';
+import lawyer from '../img/lawyer.png';
+import trainer from '../img/fit-trainer.png';
+
 
 const proyectsData = [
     {
@@ -39,10 +43,10 @@ const proyectsData = [
     },
     {
         id:4,
-        title: 'Rick & Morty: Memo',
+        title:'Fit-Commerce',
         description: 'Juego de memoria creado con JavaScript, HTML y CSS, consumiendo una api externa.',
-        img_URL: memo,
-        technologies: ['javascript','css', 'html' ],
+        img_URL: commerce,
+        technologies: ['React JS','Javascript','Material UI', 'Firebase', 'Formik', 'CSS', 'HTML' ],
         link:{
             github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
             deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'
@@ -50,10 +54,10 @@ const proyectsData = [
     },
     {
         id:5,
-        title: 'Physical Point',
+        title: 'Chinito Fit',
         description: 'Diseño y desarrollo de pagina web hecha con HTML, CSS & SCSS y Javascript.',
-        img_URL: physical,
-        technologies: ['javascript','css', 'html' ],
+        img_URL: trainer,
+        technologies: ['javascript','sass', 'html' ],
         link:{
             github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
             deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'
@@ -61,10 +65,10 @@ const proyectsData = [
     },
     {
         id:6,
-        title: 'Carrito de Compra',
+        title: 'Viviana Stoppiello Abogada',
         description: 'Logica de carrito con Javascript, peticion de datos y almacenamiento en LocalStorage ',
-        img_URL: cart,
-        technologies: ['javascript','css', 'html' ],
+        img_URL: lawyer,
+        technologies: ['Javascript', 'Bootstrap','CSS', 'HTML' ],
         link:{
             github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
             deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'

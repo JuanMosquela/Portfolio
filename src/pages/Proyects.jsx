@@ -10,7 +10,9 @@ const Proyects = () => {
         <div className="proyects-wrapper">
             {proyectsData.map(proyect => (
                 <Link key={proyect.id} to={`/proyectos/${proyect.title}`}>
-                    <img src={proyect.img_URL} alt="" />
+                    <figure>
+                      <img src={proyect.img_URL} alt="" />
+                    </figure>
                 </Link>
             ))}
             
