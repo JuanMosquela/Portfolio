@@ -1,10 +1,46 @@
 .hero-container{
     min-height: 100vh;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .hero-container .content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.hero-container .content h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.hero-container .content p{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+
+}
+
+.hero-container .content a{
+    font-size: 1.8rem;
     color: #333;
+    padding: 1rem 2.5rem;
+    margin-right: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 1px solid #333;
+    cursor: pointer;
+    
+    
+}
+
+.hero-container .content a:nth-child(3){
+    background-color: #333;
+    color: aliceblue;
+    
+}
+
+.hero-container .content button:hover{
+    transform: scale(1.05);
+    
 }

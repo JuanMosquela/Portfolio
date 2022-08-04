@@ -8,11 +8,8 @@
 
 .contact-wrapper{
     display: flex;
-    align-items: center;
-   
-    
-    
-    gap: 5rem;
+    align-items: center;    
+    gap: 4rem;
     
     
     
@@ -33,8 +30,8 @@
    
 }
 
-.contact-wrapper .contact-info .contact-list p{
-    font-size: 1.2rem;
+.contact-wrapper .contact-info .contact-list p, a{
+    font-size: 1.4rem;
     
    
 }

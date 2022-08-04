@@ -6,6 +6,7 @@ import lawyer from '../img/lawyer.png';
 import trainer from '../img/fit-trainer.png';
 
 
+
 const proyectsData = [
     {
         id:1,

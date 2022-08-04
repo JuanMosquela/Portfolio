@@ -1,20 +1,54 @@
 .about-container{
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
     align-items: center;
+    
 }
 
-.about-container figure{
-    width: 200px;
-    height: 500px;
-    flex: 1 1 30rem;
+.about-container .picture-profile{    
+    flex: 1 1 30rem;    
+    
 }
 
-.about-container figure img{
+.about-container .picture-profile figure{
+    position: relative;
+    width: 320px;
+    height: 420px; 
+    background-color: rgb(160, 165, 165);   
+    
+}
+
+.about-container .picture-profile figure img{
+    position: absolute;
     width: 100%;
     height: 100%;
+    top: 25px;
+    left: 25px;
+    
 }
 
 .about-container .about-content{
     flex: 1 1 20rem;
+    text-align: justify;
+}
+
+
+
+
+.icons-container{
+    display: flex;    
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+
+}
+
+.icons-container img{
+    width: 50px;
+}
+
+
+
+.icons-container img:hover{
+    transform: scale(1.2);
 }

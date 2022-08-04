@@ -6,7 +6,7 @@ import './proyects.css'
 const Proyects = () => {
   return (
     <section className='container-proyects'>
-        <Title title='Proyectos' />
+        <Title title='Proyectos:' span='algunos de mis trabajos recientes' />
         <div className="proyects-wrapper">
             {proyectsData.map(proyect => (
                 <Link key={proyect.id} to={`/proyectos/${proyect.title}`}>

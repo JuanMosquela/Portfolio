@@ -1,4 +1,6 @@
-import './hero.css'
+import { Link } from 'react-router-dom'
+import './hero.css';
+import JuanMosquellaCV from '../../img/cv.pdf'
 
 const Hero = () => {
   return (
@@ -6,8 +8,8 @@ const Hero = () => {
         <div className="content">
             <h1>Juan Manuel Mosquella</h1>
             <p>Soy desarrollador frontend</p>
-            <button>Descgar CV</button>
-            <button>Contactarme</button>
+            <a href={JuanMosquellaCV} download="Juan Mosquella-CV.pdf">Descargar CV</a>
+            <Link to='/contacto'>Contactame</Link>
         </div>
 
     </section>
