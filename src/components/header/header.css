@@ -68,3 +68,11 @@
     color: #000;
 }
 
+
+.theme-icons{
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    font-size: 2.6rem;
+    
+}

@@ -8,7 +8,10 @@ import {Link} from 'react-router-dom'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+
 const ProyectsCarrusell = () => {
+
+  
   
     const settings = {
       dots: true,
@@ -52,13 +55,13 @@ const ProyectsCarrusell = () => {
     
 
     return (
-      <section id="proyects" className="container-proyects">
+      <section id="proyects" className="container-proyects" >
         <Title
           className='heading'
           title='Proyectos que he realizado :'
           span='Conoce mi trabajo' 
         /> 
-        <Slider className="container" {...settings}> 
+        <Slider  className="container" {...settings}> 
           {proyectsData.map(proyect => (  
                   
             

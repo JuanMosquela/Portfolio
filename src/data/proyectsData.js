@@ -15,8 +15,8 @@ const proyectsData = [
         img_URL: memo,
         technologies: ['javascript','css', 'html' ],
         link:{
-            github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
-            deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'
+            github: 'https://github.com/JuanMosquela/Rick-MortyMemo',
+            deploy:'https://juanmosquela.github.io/Rick-MortyMemo/'
         }
     },
     {
@@ -38,8 +38,8 @@ const proyectsData = [
         img_URL: cart,
         technologies: ['javascript', 'bootstrap','html'],
         link:{
-            github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
-            deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'
+            github: 'https://github.com/JuanMosquela/ShoppingCart',
+            deploy:'https://juanmosquela.github.io/ShoppingCart/'
         } 
     },
     {
@@ -49,8 +49,8 @@ const proyectsData = [
         img_URL: commerce,
         technologies: ['React JS','Javascript','Material UI', 'Firebase', 'Formik', 'CSS', 'HTML' ],
         link:{
-            github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
-            deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'
+            github: 'https://github.com/JuanMosquela/fit-commerce-Mosquella',
+            deploy:'https://fit-commerce-mosquella.vercel.app/'
         }
     },
     {
@@ -60,8 +60,8 @@ const proyectsData = [
         img_URL: trainer,
         technologies: ['javascript','sass', 'html' ],
         link:{
-            github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
-            deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'
+            github: 'https://github.com/JuanMosquela/Chinito.github.io',
+            deploy:'https://juanmosquela.github.io/Chinito.github.io/'
         } 
     },
     {
@@ -71,8 +71,8 @@ const proyectsData = [
         img_URL: lawyer,
         technologies: ['Javascript', 'Bootstrap','CSS', 'HTML' ],
         link:{
-            github: 'https://github.com/JuanMosquela/PhysicalPoint.github.io',
-            deploy:'https://juanmosquela.github.io/PhysicalPoint.github.io/'
+            github: 'https://github.com/JuanMosquela/Landing-page-abogada',
+            deploy:'https://juanmosquela.github.io/Landing-page-abogada/'
         }
     }
 ]

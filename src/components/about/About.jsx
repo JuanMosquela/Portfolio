@@ -1,9 +1,5 @@
 import Title from "../title/Title"
 import './about.css';
-import {FaReact} from 'react-icons/fa'
-import {SiJavascript, SiMaterialui, SiFirebase, SiBootstrap} from 'react-icons/si'
-import {DiCss3, DiHtml5, DiGit, DiSass} from 'react-icons/di';
-import {AiFillGithub} from 'react-icons/ai'
 import git from '../../img/git.svg'
 import html from '../../img/html.svg'
 import css from '../../img/css.svg'
@@ -29,19 +25,6 @@ const About = () => {
     material
   ]
 
-  const colors = {
-    javascript: '#FFD600',
-    html: '#FF6D00',
-    css: '#039BE5',
-    bootstrap: '#673AB7',
-    react: '#61DAFB',
-    git: '#F4511E',
-    sass:'#F06292',
-    firebase:'#FFC400',
-    material: '#0288D1'
-  }
-
-
   return (
       <section id="about">
           <div className="about-container">
@@ -54,6 +37,7 @@ const About = () => {
               <Title title='Conoceme:' span='un poco sobre mi' />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, temporibus laudantium alias veritatis iure omnis a, autem itaque veniam reiciendis dolores consectetur quos et similique porro est velit delectus sint nam. Adipisci dolorem qui totam non. Harum animi voluptatibus doloremque alias adipisci maxime, et blanditiis, commodi nemo hic soluta laudantium.</p>
               <Title title='Mis skills:' />              
+              <div className="animation-wrapper">
               <figure className="icons-container">
                 {
                   icons?.map((icon, index) => (
@@ -62,6 +46,7 @@ const About = () => {
                   ))
                 }
               </figure>
+              </div>
             </div>
           </div>
       </section>
