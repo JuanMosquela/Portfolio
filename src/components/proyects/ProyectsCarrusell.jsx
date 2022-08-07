@@ -65,9 +65,8 @@ const ProyectsCarrusell = () => {
           {proyectsData.map(proyect => (  
                   
             
-            <Link to={`/proyectos/${proyect.title}`}>
-              <ProyectCard
-                key={proyect.id}
+            <Link key={proyect.id} to={`/proyectos/${proyect.title}`}>
+              <ProyectCard                
                 title={proyect.title}
                 description={proyect.description}
                 img={proyect.img_URL}              

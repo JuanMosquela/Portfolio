@@ -62,7 +62,7 @@
     width: 60px;
 }
 
-.navbar ul li{
+.navbar ul .nav-link{
     font-size: 1.8rem;
     text-transform: capitalize;
     color: #000;

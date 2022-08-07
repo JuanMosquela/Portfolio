@@ -56,3 +56,9 @@ p, a{
 button, i{
     transition: .3s linear;
 }
+
+@media (max-width:500px){
+    section{
+        padding: 2rem 2rem;
+    }
+}

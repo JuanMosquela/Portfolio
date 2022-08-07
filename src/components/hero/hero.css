@@ -55,5 +55,26 @@
     width: 50%;
     height: 100%;
     
-    background-color: #000;
+    
+}
+
+@media (max-width:600px){
+
+    .hero-container .content{
+        padding: 0 15px;        
+        inset: 0;
+        top: 30%;
+        
+    }
+
+    .hero-container .content  a{
+        display: block;
+        margin: 10px 0;
+        
+    }
+
+    .clip-bg{
+        display: none;
+    }
+
 }

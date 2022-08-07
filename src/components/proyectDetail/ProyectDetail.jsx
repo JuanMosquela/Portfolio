@@ -1,10 +1,14 @@
+import { useContext } from "react"
 import { useState } from "react"
 import { useEffect } from "react"
 import { useParams } from "react-router-dom"
+import { ThemeContext } from "../../context/ThemeProvider"
 import proyectsData from "../../data/proyectsData"
 import './proyectDetail.css'
 
 const ProyectDetail = () => {
+
+    const {theme} = useContext(ThemeContext)
 
     const [proyect, setProyect] = useState({})
 
@@ -39,12 +43,16 @@ const ProyectDetail = () => {
                 <div className="category-container">
                     {
                         proyect.technologies?.map(tec => (
-                            <span key={tec}>{tec}</span>
+                            <span style={{ 
+                                border: theme ? '2px solid #FFF' : '2px solid #333',
+                                color: theme ? '#FFF' : '#333' }}
+                                key={tec}>{tec}
+                            </span>
                         ))
                     }
                 </div>
                 <p>{proyect.description}</p>
-                <a target='blank' href={proyect.link?.github}>Github</a>
+                <a  target='blank' href={proyect.link?.github}>Github</a>
                 <a target='blank' href={proyect.link?.deploy}>Deploy</a>
             </div>
             

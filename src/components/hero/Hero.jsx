@@ -2,8 +2,12 @@ import { Link } from 'react-router-dom'
 import './hero.css';
 import JuanMosquellaCV from '../../img/cv.pdf';
 import { useTypewriter} from 'react-simple-typewriter'
+import { useContext } from 'react';
+import { ThemeContext } from '../../context/ThemeProvider';
 
 const Hero = () => {
+
+  const {theme} = useContext( ThemeContext )
 
   const {text} = useTypewriter({
     words: ['Desarrollador Front-end', 'Freelance autodidacta', 'Amante de Marvel!'],
@@ -27,7 +31,7 @@ const Hero = () => {
         </div>
         <div className="clip-bg-container">
 
-          <div className="clip-bg">
+          <div className="clip-bg" style={{ backgroundColor: theme ? '#FFF' : '#000' }}>
         </div>
 
         </div>

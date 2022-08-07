@@ -17,7 +17,7 @@ root.render(
     <ThemeProvider>
       <Routes> 
         <Route path='/' element={<App />}>              
-          <Route index path='/home' element={<Home />} />
+          <Route index element={<Home />} />
           <Route path='/proyectos' element={<Proyects />} />
           <Route path='/proyectos/:title' element={<ProyectDetail />} />
           <Route path='/contacto' element ={<Contact />} />              

@@ -16,7 +16,7 @@ function App() {
   return (
     
     <div className="App" style={{ backgroundColor: theme ? '#000' : '#FFF', color: theme ? '#FFF' : '#000' }}>
-      <Header style={{backgroundColor: theme ? '#000' : '#FFF'}} />
+      <Header  />
       <div>
         <Outlet />
         
